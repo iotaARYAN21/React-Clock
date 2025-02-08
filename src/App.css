@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* border: 2px solid black; */
+  background-color: #0C1B33;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.dot{
+  background-color: #5B3758;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  z-index: 20;
+}
+.clock{
+  height: 440px;
+  width: 440px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(245, 140, 4);
+  border-radius: 50%;
+}
+.hand{
+  position: absolute;
+  /* border-left: 2px solid red; */
+  left: 50%;
+  top: 50%;
+  transform-origin: 0 center;
+  color: orange;
+  transform: translate(-50%,-50%);
+}
+.number{
+  position: absolute;
+  transform-origin: center;
+}
+.container{
+  transform: rotate(270deg);
+  /* background-color: blueviolet; */
+  
+}
+.digits{
+  transform: rotate(90deg);
+  color: aquamarine;
+}
